@@ -1,0 +1,39 @@
+h3 {
+    text-align: center;
+    font-family: Arial;
+    color: darkblue;
+    font-size: 4vw;
+    background-color: lightcyan;
+}
+
+#gridContainer {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: auto;
+}
+
+.gridElement {
+    border: 1px solid #222;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+.buttCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px;
+    height:50px;
+}
+
+button {
+    font-size: 20px;
+    font-family: monospace;
+    color: darkred;
+    background-color: lightyellow;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
